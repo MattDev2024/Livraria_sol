@@ -10,7 +10,7 @@ import com.livariaSol.Livrariasol.entidade.Produto;
 import com.livariaSol.Livrariasol.repositories.ProdutoRepository;
 
 @Service
-public class ProdutoResource {
+public class ProdutoService {
 	
 	@Autowired
 	private ProdutoRepository produtoRepo;

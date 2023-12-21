@@ -24,7 +24,7 @@ public class UserService {
 		return usr.get();
 	}
 	
-	public void addNew(Usuarios user) {
+	public Usuarios addNew(Usuarios user) {
 		return userRepo.save(user);
 	}
 
